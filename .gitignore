@@ -1,7 +1,8 @@
 .gitattributes
+*.m
 
 .idea/
+__pycache__/
 log/
 checkpoint/
-
-__pycache__/
+test/

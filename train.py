@@ -4,14 +4,11 @@ import tensorflow as tf
 import numpy as np
 import scipy.io as sio
 from tqdm import tqdm
-import visdom
 
 from utils import Logger
 from utils import Parser
 
 LOGGER = Logger(name=__name__).get_logger()
-
-VIS = visdom.Visdom
 
 class Trainer:
     def __init__(self, param):
