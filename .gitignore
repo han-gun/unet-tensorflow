@@ -1,4 +1,7 @@
-.gitattributes/
-.ideal/
+.gitattributes
+
+.idea/
 log/
 checkpoint/
+
+__pycache__/
